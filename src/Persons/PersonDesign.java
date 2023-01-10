@@ -20,12 +20,12 @@ public abstract class PersonDesign implements PersonDesignInterface{
     // FIELDS
     ////////////////////////////////////////////
 
-    private int id;
+    private final int id;
     private String name;
-    private String gender;
-    private LocalDateTime dateTimeOfBirth;
+    private final String gender;
+    private final LocalDateTime dateTimeOfBirth;
     private boolean isRulerOfTheRealm = false;
-    private int realmPersonBelongsTo;
+    private final int realmPersonBelongsTo;
     private LocalDateTime timeBeginServiceInArmy;
 
     //////////////////////////////////////////

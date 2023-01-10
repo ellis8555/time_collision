@@ -15,13 +15,13 @@ public abstract class BuildingDesign {
     // FIELDS
     ////////////////////////////////////////////
 
-    private int buildingId;
+    private final int buildingId;
 
     private String name;
 
-    private LocalDateTime dateTimeOfConstruction;
+    private final LocalDateTime dateTimeOfConstruction;
 
-    private int realmBuildingBelongsTo;
+    private final int realmBuildingBelongsTo;
 
     private int homeOwner = 1;
 

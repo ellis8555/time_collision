@@ -33,7 +33,7 @@ public class GermanicRealm extends RealmDesign {
     private static int germanicCitizenCount;
 
     // area code this realm
-    private int thisRealmsAreacode = realmAreacodes.GERMANIC.getAreaCode();
+    private final int thisRealmsAreacode = realmAreacodes.GERMANIC.getAreaCode();
 
     //////////////////////////////////////////
     // CONSTRUCTOR

@@ -18,7 +18,7 @@ public abstract class RealmDesign {
     ////////////////////////////////////////////
 
     // id generated utilizing UUID class then hashing that in constructor
-    private int realmId;
+    private final int realmId;
     // name of this realm
     private String realmName;
     // ArrayList that includes every person in this realm. Occurs as new person is created in each realm's addCitizen method

@@ -33,7 +33,7 @@ public class RomanRealm extends RealmDesign{
     private static int romanCitizenCount;
 
     // area code this realm
-    private int thisRealmsAreacode = realmAreacodes.ROME.getAreaCode();
+    private final int thisRealmsAreacode = realmAreacodes.ROME.getAreaCode();
 
     //////////////////////////////////////////
     // CONSTRUCTOR
