@@ -19,9 +19,6 @@ public class NameInputWithSpaces {
         }
         while(!validEntry);
 
-        StringBuilder validatedName = new StringBuilder();
-        validatedName.append(name);
-        return validatedName.toString();
+        return name;
     }
-
 }
