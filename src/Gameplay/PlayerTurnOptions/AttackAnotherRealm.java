@@ -23,9 +23,9 @@ public class AttackAnotherRealm {
         if(sizeOfAttackingArmy < 1){
             doesPlayerHaveAnArmy = false;
             if(attackingRealmsObject instanceof GermanicRealm){
-                System.out.println("You currently have no soldiers in your army.\nEdit a citizens object occupation to warrior which enlists that citizen into the army.");
+                System.out.println("You currently have no warriors in your army.\nEdit a citizens object occupation to warrior which enlists that citizen into the army.");
             }else{
-                System.out.println("You currently have no soldiers in your army.\nEdit a citizens object occupation to centurion which enlists that citizen into the army.");
+                System.out.println("You currently have no centurions in your army.\nEdit a citizens object occupation to centurion which enlists that citizen into the army.");
             }
         } else {
             // get all realm ids
